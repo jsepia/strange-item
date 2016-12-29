@@ -7,6 +7,8 @@
   "scripts": {
     "build": "npm run lint && rollup -c rollup.conf.js",
     "clean": "rimraf dist/*",
+    "cover": "istanbul cover _mocha",
+    "coveralls": "npm run cover -- --report lcovonly && cat ./coverage/lcov.info | coveralls",
     "lint": "eslint index.js \"lib/**/*.js\"",
     "test": "mocha"
   },
@@ -26,7 +28,10 @@
     "rollup-plugin-buble": "^0.15.0"
   },
   "devDependencies": {
+    "coveralls": "^2.11.15",
     "eslint": "^3.12.2",
-    "mocha": "^3.2.0"
+    "istanbul": "^0.4.5",
+    "mocha": "^3.2.0",
+    "mocha-lcov-reporter": "^1.2.0"
   }
 }
