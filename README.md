@@ -1,5 +1,7 @@
 # Strange Item
 
+[![Build Status](https://travis-ci.org/jsepia/strange-item.svg?branch=master)](https://travis-ci.org/jsepia/strange-item)
+
 Ever wanted to auto-update a DOM element every time a certain JS value is changed? But you don't want to set up Angular or React just to do that? If so, **Strange Item** might be for you.
 
 **Strange Item** is a utility class that:
