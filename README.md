@@ -1,6 +1,6 @@
 # Strange Item
 
-[![Build Status](https://travis-ci.org/jsepia/strange-item.svg?branch=master)](https://travis-ci.org/jsepia/strange-item)
+[![Build Status](https://travis-ci.org/jsepia/strange-item.svg?branch=master)](https://travis-ci.org/jsepia/strange-item) [![Coverage Status](https://coveralls.io/repos/github/jsepia/strange-item/badge.svg?branch=master)](https://coveralls.io/github/jsepia/strange-item?branch=master)
 
 Ever wanted to auto-update a DOM element every time a certain JS value is changed? But you don't want to set up Angular or React just to do that? If so, **Strange Item** might be for you.
 
