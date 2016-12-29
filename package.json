@@ -5,7 +5,7 @@
   "main": "dist/strange-item.umd.js",
   "module": "dist/strange-item.es2015.js",
   "scripts": {
-    "build": "rollup -c rollup.conf.js",
+    "build": "npm run lint && rollup -c rollup.conf.js",
     "clean": "rimraf dist/*",
     "lint": "eslint index.js \"lib/**/*.js\"",
     "test": "mocha"
