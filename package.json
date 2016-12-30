@@ -1,6 +1,6 @@
 {
   "name": "strange-item",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A framework-agnostic way to bind a JS value to one or more DOM elements",
   "main": "dist/strange-item.umd.js",
   "module": "dist/strange-item.es2015.js",
